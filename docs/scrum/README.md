@@ -2,14 +2,9 @@
 
 
 
-
-
-
-
-
 ---
 
-# Daily Scrum
+## Daily Scrum
 
 En **Scrum**, la reunión diaria se llama **Daily Scrum** o **Daily Stand-up**.
 
@@ -59,3 +54,81 @@ La idea es que cada desarrollador responda de forma **breve y clara** a 3 pregun
   * **Ayer:** Terminé el diseño de la pantalla de login.
   * **Hoy:** Conectar la pantalla con la API de autenticación.
   * **Impedimentos:** No tengo la documentación del endpoint de login.
+ 
+## 🔑 organización dailys:  
+
+
+### 1. 📂 Carpeta
+
+```
+docs/
+ └── scrum/
+      └── daily/
+```
+
+---
+
+### 2. 📄 Nombre de archivos
+
+formato **fecha + equipo** para que se ordenen cronológicamente:
+
+```
+YYYY-MM-DD-equipo.md
+```
+
+Ejemplo:
+
+* `2025-09-01-equipoA.md`
+* `2025-09-01-equipoB.md`
+
+✅ Ventaja: todos los registros del mismo día quedan juntos, y cada equipo tiene su archivo.
+
+---
+
+### 3. 📄 Una plantilla por día (no por alumno)
+
+* **Recomendado:** **un archivo por día y por equipo**, con secciones para cada alumno.
+* ❌ Evitar un archivo por alumno → se vuelve inmanejable (10 archivos diarios).
+* ❌ Evitar un archivo único para todo el proyecto → pierde el control diario.
+
+---
+
+### 4. 📑 Plantilla reutilizable
+
+Dentro de cada archivo, cada alumno tiene su bloque:
+
+```markdown
+# 📝 Daily Scrum - Equipo A
+📅 Fecha: 2025-09-01  
+
+---
+
+### 👩‍💻 Ana
+1. ¿Qué hice ayer?  
+2. ¿Qué haré hoy?  
+3. ¿Qué impedimentos tengo?  
+
+---
+
+### 👨‍💻 Pedro
+1. ¿Qué hice ayer?  
+2. ¿Qué haré hoy?  
+3. ¿Qué impedimentos tengo?  
+
+---
+
+### 📌 Notas Scrum Master
+- ...
+```
+
+---
+
+✅ Con este esquema:
+
+* La carpeta `docs/scrum/daily/` es la “bitácora del curso”.
+* Se Puede revisar rápidamente la evolución del equipo día a día.
+* Los alumnos solo editan **su sección del día**, no crean archivos nuevos.
+
+---
+
+
