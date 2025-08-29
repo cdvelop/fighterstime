@@ -1,26 +1,35 @@
-### Requerimiento Funcional: Sistema de Combate Básico
+# Requerimiento Funcional: Sistema de Progresión por Puntos de Atributo
 
-Este documento detalla el requerimiento funcional del sistema de combate, basado en la lógica de la clase `Personaje`. El objetivo es simular una batalla por turnos entre dos personajes hasta que uno de ellos sea derrotado, estableciendo así a un ganador.
+## Propósito
+Permitir a los jugadores personalizar sus personajes de manera flexible al subir de nivel. En lugar de aumentos automáticos, el jugador recibirá puntos que podrá asignar a los atributos principales (vida, ataque, defensa, velocidad) para adaptar el personaje a su estilo de juego preferido.
 
-#### **Mecánicas del Combate**
+---
 
-1.  **Preparación del Combate**: El sistema iniciará el combate con dos objetos `Personaje` previamente configurados.
+## Componentes Clave
 
-2.  **Determinación del Turno Inicial**:
-    * El combate se desarrollará por turnos.
-    * Para el primer turno, el sistema debe comparar la propiedad `velocidad` de ambos personajes.
-    * El personaje con el valor de **`velocidad`** más alto atacará primero.
-    * En caso de que la `velocidad` sea idéntica, el orden de ataque inicial puede ser predefinido o asignado de manera aleatoria.
+### Atributos del Personaje
+Los personajes tendrán dos nuevos atributos:
+* **Nivel:** Un número entero que comenzará en 1 para todos los personajes.
+* **Experiencia:** Un número entero que acumulará los puntos de experiencia (XP) ganados, comenzando en 0.
 
-3.  **Lógica de Ataque y Daño**:
-    * En su turno, un personaje ejecutará una acción de ataque contra el oponente.
-    * El daño base del ataque será igual a la propiedad **`ataque`** del personaje atacante.
-    * El personaje defensor debe procesar el daño recibido. El sistema llamará al método `recibirDanio()` del personaje defensor, pasando como argumento el valor del `ataque` del oponente.
-    * El método `recibirDanio()` calculará el daño real restando la **`defensa`** del defensor del ataque recibido. Es crucial que el daño real resultante no sea un valor negativo.
+### Ganancia de Experiencia (XP)
+* Los personajes ganarán XP al derrotar a un enemigo en combate.
+* La cantidad de XP ganada se calculará con la siguiente fórmula: `XP Ganada = (Nivel del Enemigo * 50)`.
+* Esta XP se sumará al atributo de experiencia del personaje.
 
-4.  **Condiciones de Victoria y Finalización**:
-    * Después de cada ataque, el sistema debe verificar la propiedad **`vida`** del personaje que recibió el daño.
-    * Si la `vida` de un personaje cae a cero o menos, su propiedad **`estaVivo`** debe ser actualizada a `false`.
-    * El combate finalizará de inmediato en el momento en que un personaje ya no esté vivo.
-    * El personaje que permanezca con **`estaVivo = true`** será declarado como el **vencedor**.
-    * Si, en un caso particular, la vida de ambos personajes llega a cero en el mismo turno, el combate se considerará un **empate**.
+### Mecánica de Subida de Nivel y Puntos de Atributo
+* Después de cada combate, el sistema verificará si la experiencia acumulada es suficiente para subir de nivel.
+* La XP necesaria para alcanzar el siguiente nivel se calculará con la fórmula: `XP Requerida = 100 * (Nivel Actual^2)`.
+* Si la experiencia acumulada es igual o mayor a la XP Requerida, el personaje subirá de nivel. Por cada nivel que suba, el jugador recibirá 3 puntos de atributo para gastar.
+* La interfaz de usuario deberá notificar al jugador que ha subido de nivel y tiene puntos disponibles para gastar.
+
+### Menú de Asignación de Atributos
+* Se creará un nuevo menú o pantalla accesible al subir de nivel. En este menú, el jugador podrá distribuir sus puntos de atributo entre los siguientes cuatro atributos principales, con un costo de 1 punto por cada unidad aumentada:
+    * **Puntos de Vida (Vida):** Aumenta la vitalidad del personaje.
+    * **Puntos de Ataque (Ataque):** Incrementa el daño infligido.
+    * **Puntos de Defensa (Defensa):** Reduce el daño recibido.
+    * **Puntos de Velocidad (Velocidad):** Aumenta la velocidad para determinar la iniciativa de turno.
+
+### Persistencia de Datos
+* Los atributos de nivel, experiencia y la asignación de puntos deben ser guardados junto con los demás datos del personaje para asegurar que el progreso del jugador no se pierda.
+* Los sistemas de almacenamiento de datos deben actualizarse para incluir estos nuevos campos y garantizar que el progreso del jugador se conserve.
