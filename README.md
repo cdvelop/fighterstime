@@ -7,3 +7,28 @@ Fighter's Time es un juego de rol simple para dispositivos móviles donde los ju
 ## 📋 Documentos:
 
 ### - [REQUERIMIENTOS](docs/requirements/README.md)
+
+📜 Grupo A:
+
+Catalina Toledo
+
+Pedro Flores 
+
+Jose Aylwin
+
+Francisco Villa
+
+Diego Gonzalez
+
+
+📜 Grupo B:
+
+Benjamin Uribe 
+
+Jose Chavez 
+
+Juan Beleño 
+
+Daniel Romero 
+
+Luis Zañartu
