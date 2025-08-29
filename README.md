@@ -18,7 +18,7 @@ Jose Aylwin
 
 Francisco Villa
 
-Diego Gonzalez
+Diego Gonzalez **[SCRUM MASTER]**
 
 
 📜 Grupo B:
