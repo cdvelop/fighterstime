@@ -1,5 +1,8 @@
 # Scrum
 
+### - [DAILY](daily/README.md)
+### - [SPRINTS](sprints/README.md)
+
 ## teams de desarrollo:
 
 📜 Grupo A:
