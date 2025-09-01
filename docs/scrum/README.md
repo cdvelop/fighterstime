@@ -25,9 +25,9 @@ Benjamin Uribe
 
 Jose Chavez 
 
-Juan Beleño 
+Juan Beleño
 
-Daniel Romero 
+Daniel Romero **[SCRUM MASTER]**
 
 Luis Zañartu
 
