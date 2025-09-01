@@ -3,6 +3,7 @@
 
 ### - [DAILY](daily/README.md)
 ### - [SPRINTS](sprints/README.md)
+### - [SCRUM MASTER](master/README.md)
 
 ## teams de desarrollo:
 
@@ -34,7 +35,7 @@ Luis Zañartu
 
 ---
 
-### 📌 Roles Scrum (pedagógicos)
+### 📌 Roles Scrum (pedagógicos, tablero kanban)
 
 * **Scrum Master (rotativo entre alumnos):**
 
@@ -67,11 +68,11 @@ Luis Zañartu
 
 ---
 
-### ✅ Sugerencia práctica
+### ✅ Definicion de Responsabilidades:
 
-* **Todos los alumnos como *Write*** → fomenta la colaboración real.
-* **Scrum Master rotativo** → privilegios extra (ej. crear issues, milestones, mover tareas en Projects).
-* **Profesor como Admin/Product Owner** → aseguras el orden y das feedback.
+* **alumnos devs como Readers en tablero*** → tablero kanban github
+* **Scrum Master rotativo** → privilegios extra (ej. crear issues, milestones, mover/asignar tareas en Tablero).
+* **Profesor como Admin/Product Owner** → asegura el orden y da feedback.
 
 ---
 
