@@ -3,6 +3,7 @@
 
 ### - [DAILY](daily/README.md)
 ### - [SPRINTS](sprints/README.md)
+### - [SCRUM MASTER](master/README.md)
 
 ## teams de desarrollo:
 
