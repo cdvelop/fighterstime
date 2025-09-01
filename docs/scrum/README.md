@@ -34,7 +34,7 @@ Luis Zañartu
 
 ---
 
-### 📌 Roles Scrum (pedagógicos)
+### 📌 Roles Scrum (pedagógicos, tablero kanban)
 
 * **Scrum Master (rotativo entre alumnos):**
 
