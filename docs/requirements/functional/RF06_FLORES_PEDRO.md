@@ -21,7 +21,6 @@ El sistema permitira que el jugador pueda realizar diferentes acciones con los p
 - Eliminar personaje: Elimina un personaje creado/guardado de la lista de personajes.
 
 Este sistema debe asegurar que los personajes creados serán guardados en la memoria de manera correcta mientras que el programa se encuentre en ejecución, es importante que el tiempo de respuesta a esto no sea superior a los 500ms.
-En cuanto a la persistencia, este sistema trabaja con un enfoque de almacenamiento en memoria durante la ejecución del programa.
 
 
 En cuanto a la persistencia, este sistema trabaja con un enfoque de almacenamiento en memoria. Al cerrar la apicación el personaje/partida queda guardado en un archivo `.sav`.
