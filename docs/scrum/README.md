@@ -67,11 +67,11 @@ Luis Zañartu
 
 ---
 
-### ✅ Sugerencia práctica
+### ✅ Definicion de Responsabilidades:
 
-* **Todos los alumnos como *Write*** → fomenta la colaboración real.
-* **Scrum Master rotativo** → privilegios extra (ej. crear issues, milestones, mover tareas en Projects).
-* **Profesor como Admin/Product Owner** → aseguras el orden y das feedback.
+* **alumnos devs como Readers en tablero*** → tablero kanban github
+* **Scrum Master rotativo** → privilegios extra (ej. crear issues, milestones, mover/asignar tareas en Tablero).
+* **Profesor como Admin/Product Owner** → asegura el orden y da feedback.
 
 ---
 
