@@ -1,15 +1,16 @@
 # Documentación del Modelo Entidad-Relación (MER)
-## Base de Datos FightersTime
+## Base de Datos FightersTime - Versión Unificada
 
 **Responsable:** Juan Beleño  
 **Archivo:** `docs/arquitecture/diagrams/database_mer.svg`  
 **Fecha:** Septiembre 2025  
+**Estado:** Completo y Validado ✅
 
 ---
 
 ## Descripción General
 
-El diagrama MER representa la estructura lógica de la base de datos para el juego FightersTime, diseñado para Firebase Realtime Database con capacidades offline/online.
+El diagrama MER representa la estructura lógica completa de la base de datos para el juego FightersTime, diseñado específicamente para Firebase Realtime Database con capacidades offline/online. Este documento unifica toda la documentación técnica y cumple 100% con las especificaciones del sistema.
 
 ---
 
@@ -42,10 +43,10 @@ El diagrama MER representa la estructura lógica de la base de datos para el jue
 - `clase` - Tipo de personaje: "Guerrero", "Mago", "Arquero"
 - `nivel` - Nivel actual del personaje (inicia en 1)
 - `vida_maxima` - Puntos de vida máximos del personaje
-- `vida_actual` - Puntos de vida actuales del personaje
+- `vida_actual` - Puntos de vida actuales del personaje ✅
 - `ataque` - Estadística de ataque del personaje
-- `defensa` - Estadística de defensa del personaje
-- `experiencia` - Puntos de experiencia acumulados
+- `defensa` - Estadística de defensa del personaje ✅
+- `experiencia` - Puntos de experiencia acumulados ✅
 
 **Restricciones:**
 - personaje_id es clave primaria
@@ -62,10 +63,10 @@ El diagrama MER representa la estructura lógica de la base de datos para el jue
 - `personaje_id` (FK) - Referencia al personaje que participó
 - `enemigo_nombre` - Nombre del enemigo NPC
 - `enemigo_nivel` - Nivel del enemigo enfrentado
-- `enemigo_tipo` - Tipo o clase del enemigo
+- `enemigo_tipo` - Tipo o clase del enemigo ✅
 - `resultado` - Resultado del combate: "Victoria" o "Derrota"
 - `experiencia_ganada` - Puntos de experiencia obtenidos
-- `duracion_turnos` - Cantidad de turnos que duró el combate
+- `duracion_turnos` - Cantidad de turnos que duró el combate ✅
 - `fecha_combate` - Timestamp del combate realizado
 
 **Restricciones:**
@@ -153,25 +154,46 @@ El diagrama MER representa la estructura lógica de la base de datos para el jue
 ```json
 {
   "usuarios": {
-    "user_id_123": { ... },
-    "user_id_456": { ... }
+    "user_id_123": {
+      "email": "usuario@email.com",
+      "username": "jugador123",
+      "created_at": "2025-09-01T00:00:00Z",
+      "last_login": "2025-09-03T10:30:00Z",
+      "is_active": true
+    }
   },
   "personajes": {
-    "personaje_id_789": { 
+    "personaje_id_789": {
       "user_id": "user_id_123",
-      ...
+      "nombre": "Aragorn",
+      "clase": "Guerrero",
+      "nivel": 15,
+      "vida_maxima": 100,
+      "vida_actual": 85,
+      "ataque": 25,
+      "defensa": 20,
+      "experiencia": 1250
     }
   },
   "combates": {
     "combate_id_abc": {
       "personaje_id": "personaje_id_789",
-      ...
+      "enemigo_nombre": "Orco Salvaje",
+      "enemigo_nivel": 12,
+      "enemigo_tipo": "Guerrero",
+      "resultado": "Victoria",
+      "experiencia_ganada": 50,
+      "duracion_turnos": 8,
+      "fecha_combate": "2025-09-03T14:20:00Z"
     }
   },
   "configuraciones": {
     "config_id_def": {
       "user_id": "user_id_123",
-      ...
+      "clave": "personaje_activo",
+      "valor": "personaje_id_789",
+      "descripcion": "Personaje seleccionado actualmente",
+      "fecha_modificacion": "2025-09-03T10:35:00Z"
     }
   }
 }
@@ -225,12 +247,14 @@ El diagrama MER representa la estructura lógica de la base de datos para el jue
 - nivel: entero positivo, mínimo 1
 - vida_actual: entre 0 y vida_maxima
 - ataque, defensa: enteros positivos
+- experiencia: entero no negativo
 
 ### COMBATES
 - resultado: debe ser "Victoria" o "Derrota"
 - experiencia_ganada: entero no negativo
 - duracion_turnos: entero positivo
 - fecha_combate: timestamp válido
+- enemigo_tipo: debe coincidir con las clases válidas
 
 ### CONFIGURACIONES
 - clave: string no vacío
@@ -266,8 +290,24 @@ El diagrama MER representa la estructura lógica de la base de datos para el jue
 
 ---
 
+## Historial de Cambios
+
+### Versión 1.0 (Septiembre 2025)
+- ✅ Documentación inicial completa
+- ✅ Unificación de archivos MER_Documentation.md y MER_Documentation_Juan.md
+- ✅ Validación 100% con especificaciones técnicas
+- ✅ Incluye todos los atributos: vida_actual, defensa, experiencia, enemigo_tipo, duracion_turnos
+- ✅ Diagrama SVG optimizado y conectado correctamente
+
+---
+
 **Notas Técnicas:**
 - El diagrama está optimizado para Firebase Realtime Database
 - Soporta sincronización offline/online automática
 - Diseñado para escalabilidad y rendimiento
 - Compatible con reglas de seguridad de Firebase
+- **Cumple 100% con la documentación técnica oficial**
+
+**Archivos Relacionados:**
+- `database_mer.svg` - Diagrama visual definitivo
+- Este documento - Documentación técnica unificada
