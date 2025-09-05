@@ -1,4 +1,4 @@
-# Lógica de la Progresión de Niveles
+# Lógica de la Progresión de Niveles Francisco Villa
 
 La lógica de la progresión de niveles define cómo el jugador avanza en el juego, sube de nivel y desbloquea mejoras de atributos. El sistema se basa en la acumulación de Puntos de Experiencia (EXP) obtenidos al derrotar enemigos.
 
