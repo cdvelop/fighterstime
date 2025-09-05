@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <View
+        android:id="@+id/rectangulo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:background="#FF0000"
+        tools:layout_editor_absoluteX="155dp"
+        tools:layout_editor_absoluteY="315dp" />
+
+    <Button
+        android:id="@+id/buttonArriba"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rectangulo"
+        android:layout_centerHorizontal="true"
+        android:text="Arriba"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/buttonAbajo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Abajo"
+        android:layout_below="@id/buttonArriba"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:id="@+id/buttonIzquierda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Izquierda"
+        android:layout_toStartOf="@id/buttonArriba"
+        android:layout_below="@id/rectangulo"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="10dp"/>
+    <!-- tools:layout_editor_absoluteX="167dp"
+    tools:layout_editor_absoluteY="538dp" /> -->
+    <Button
+        android:id="@+id/buttonDerecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Derecha"
+        android:layout_toEndOf="@id/buttonArriba"
+        android:layout_below="@id/rectangulo"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="10dp"/>
+
+
+</RelativeLayout>
