@@ -12,11 +12,10 @@
 * 🔴 Francisco Villa \[]
 * 🔴 José Aylwin \[]
 * 🔴 Pedro Flores \[ ]
-* 🔴 Diego González \[5]
+* 🔴 Diego González \[]
 * 🔴 Catalina Toledo \[ ]
 
 
-**15 pts  en disputa**
 60 total Sprint 1
 
 **300 pts en disputa**
