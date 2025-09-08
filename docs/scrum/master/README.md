@@ -16,6 +16,7 @@
 * 🔴 Catalina Toledo \[ ]
 
 
-60 total Sprint 1
+60 total Sprint 1 (-1)
+300 total Sprint 2 (0)
 
-**300 pts en disputa**
+**40 pts en disputa** 
