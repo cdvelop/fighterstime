@@ -13,11 +13,11 @@ Catalina Toledo
 
 Pedro Flores 
 
-Jose Aylwin
+Jose Aylwin  **[SCRUM MASTER]**
 
 Francisco Villa
 
-Diego Gonzalez **[SCRUM MASTER]**
+Diego Gonzalez 
 
 
 📜 Grupo B:
@@ -26,9 +26,9 @@ Benjamin Uribe
 
 Jose Chavez 
 
-Juan Beleño
+Juan Beleño **[SCRUM MASTER]**
 
-Daniel Romero **[SCRUM MASTER]**
+Daniel Romero 
 
 Luis Zañartu
 
