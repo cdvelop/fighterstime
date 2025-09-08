@@ -1,19 +1,19 @@
 
 ### GRUPO A 🔵
-* 🔵 Juan Beleño \[]
-* 🔵 José Chávez \[]
-* 🔵 Benjamín Uribe \[]
-* 🔵 Daniel Romero \[]
-* 🔵 Luis Zañartu \[ ]
+* 🔵 Juan Beleño \[]      **scrum master**
+* 🔵 José Chávez \[]      
+* 🔵 Benjamín Uribe \[]     
+* 🔵 Daniel Romero \[]      
+* 🔵 Luis Zañartu \[]      
 
 ---
 
 ### GRUPO B 🔴
-* 🔴 Francisco Villa \[]
-* 🔴 José Aylwin \[]
-* 🔴 Pedro Flores \[ ]
-* 🔴 Diego González \[]
-* 🔴 Catalina Toledo \[ ]
+* 🔴 Francisco Villa \[]    
+* 🔴 José Aylwin \[]       **scrum master**
+* 🔴 Pedro Flores \[]
+* 🔴 Diego González \[]     
+* 🔴 Catalina Toledo \[]
 
 
 60 total Sprint 1 (-1)
