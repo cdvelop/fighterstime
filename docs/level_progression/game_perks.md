@@ -1,4 +1,4 @@
-### Diseño y Documentación de los Perks del Juego
+### Documentación de los Perks del Juego
 
 Este documento detalla el sistema de perks (ventajas) del juego **Fighter's Time**. A diferencia de las mejoras automáticas, los perks ofrecen al jugador la posibilidad de personalizar su personaje eligiendo entre un conjunto de habilidades especiales.
 
@@ -80,4 +80,5 @@ Estos perks pueden ser seleccionados por cualquier clase de personaje, ofreciend
     * **Efecto:** Aumenta la Velocidad del personaje en 5 puntos de forma permanente.
 * **Perk: Refuerzo de Atributos**
     * **Descripción:** El personaje ha aprendido a potenciar sus atributos base con un entrenamiento intensivo.
+
     * **Efecto:** Otorga una bonificación de 10 puntos a los atributos de Ataque y Defensa.
