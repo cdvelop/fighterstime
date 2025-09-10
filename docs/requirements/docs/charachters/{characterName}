@@ -1,0 +1,64 @@
+Mi Experiencia personal y todo el rol destacado y mas he aprendido en el proyecto que hemos crado del juego movil llamado Fighterstime:
+
+A lo largo de toda la asignatura de Taller para Aplicaciones Móviles, que estoy estudiando principalmente tuve la oportunidad de 
+desarrollarme como estudiantey como integrante activo de un equipo de trabajo que se enfocó en la creación y diseño de un proyecto concreto: 
+un juego de aplicación móvil llamado Fighterstime. Esta experiencia no solo me permitió adquirir nuevas habilidades técnicas, sino que 
+también poner a prueba mis capacidades de organización, creatividad, responsabilidad y colaboración.
+Dentro del proceso de construcción del proyecto, participé activamente en diferentes etapas, pero hubo un aspecto en el cual
+me destaqué con mayor fuerza y que se convirtió en mi sello personal dentro del equipo: el desarrollo y diseño de la página 
+secundaria de selección de personajes. Este espacio en el juego cumple una función esencial, ya que constituye el punto de 
+partida para que el jugador pueda interactuar de manera significativa con la aplicación y elegir cuál será el luchador que 
+utilizará durante la experiencia de juego.
+
+1. Responsabilidad asumida en el equipo:
+
+Desde un inicio, asumí un rol de colaborador principal en esta sección del proyecto. Entendí que la selección de personajes
+no era simplemente un detalle más del diseño, sino un elemento estratégico que podía marcar la diferencia en la percepción del usuario. 
+Fue por eso que me comprometí a entregar lo mejor de mí en esta tarea. Mi responsabilidad fue aportar tanto en la parte conceptual como 
+en la parte práctica. Conceptualmente, ayudé a definir cómo debía organizarse visualmente la pantalla de selección, qué elementos debía 
+contener, cómo debía comunicarse la información de cada personaje y qué tipo de diseño sería atractivo y funcional al mismo tiempo.
+
+En la parte práctica, llevé estas ideas a una herramienta concreta: Draw.io, que fue el espacio donde pude plasmar las propuestas 
+en forma de mockup. Estos esquemas gráficos facilitaron la comprensión tanto para mis compañeros como para los docentes, ya que 
+permitieron visualizar de manera sencilla lo que más adelante se implementaría en el código del juego.
+
+2. Diseño del mockup en Draw.io
+
+El mockup que realicé en Draw.io se transformó en una pieza central de mi aporte al proyecto. En él, incluí la representación clara de los
+personajes, su distribución en pantalla y los botones de interacción que permitirían al jugador escoger entre distintas opciones como
+Guerrero, Mago o Arquero.Más allá de lo visual, el diseño estaba pensado con lógica de usabilidad: que los nombres de los personajes 
+fueran visibles y fáciles de identificar, que el fondo acompañara estéticamente al juego y que el flujo de navegación resultara intuitivo.
+
+El código de referencia quedó resumido en la ruta:
+docs/charachters/{characterName}/charachters/{characterName}
+Este detalle, aunque parezca técnico, fue importante porque nos dio una guía de cómo debía organizarse la estructura del proyecto,
+especialmente para mantener la coherencia entre los documentos y la implementación.
+
+3. Experiencia personal e inteligencia aplicada
+
+Mi experiencia dentro del proyecto me permitió identificar cuáles eran mis mayores fortalezas. Entre ellas, considero que mi inteligencia 
+creativa y visual se vio reflejada en el diseño del mockup. Pude imaginar cómo debía lucir el juego desde el punto de vista del usuario 
+final, y trasladar esas ideas al plano gráfico con claridad. Al mismo tiempo, ejercité mi inteligencia lógica y estructural, ya que el 
+diseño no podía quedarse solo en lo estético; debía estar respaldado por un orden en la arquitectura del proyecto y por una coherencia 
+en el manejo de rutas, carpetas y archivos. Además, desarrollé la capacidad de trabajo colaborativo, porque mi labor en la selección de 
+personajes no estaba aislada. Dependía de la coordinación con mis compañeros que trabajaban en otras secciones, y juntos logramos integrar
+los avances en un todo coherente.
+
+4. Reflexión sobre mi rango de experiencia
+
+Si tuviera que establecer un rango sobre mi experiencia e inteligencia aplicada a lo largo de la asignatura, diría que me moví entre dos
+polos que son complementarios: la creatividad aplicada al diseño y la capacidad de organización técnica. Estos dos aspectos me permitieron
+destacar y aportar valor al proyecto en una medida significativa.En el aspecto creativo, mi rango de aporte fue alto, porque yo como experto
+fui capaz de tratar de  proponer las ideas originales que dieron identidad a la pantalla de selección de personajes. En lo técnico,que es mi
+rango lo que fue intermedio-alto, ya que, aunque no estuve encargado de la totalidad del código central del juego, sí aporté en la definición 
+de estructuras, rutas y orden de los documentos, lo cual fue esencial para la claridad del trabajo en equipo.
+
+5. Conclusión del aporte:
+
+En conclusión, mi experiencia personal dentro del proyecto Fighterstime fue enriquecedora y significativa. Mi inteligencia se manifestó
+en diferentes áreas, pero principalmente en la creatividad para diseñar, la lógica para estructurar y la disposición para colaborar.
+Me siento orgulloso de haber sido el principal colaborador en la página secundaria de selección de personajes, ya que este aporte no 
+solo fortaleció el proyecto, sino también mi propio aprendizaje como estudiante en la asignatura de Taller para Aplicaciones Móviles.
+Estoy muy convencido de que el rango de toda mi experiencia se ubica en un nivel de destacado colaborador y diseñador estratégico, y que 
+esta vivencia me brindó las herramientas necesarias para seguir desarrollándome en proyectos futuros con la misma responsabilidad y 
+compromiso.
