@@ -82,6 +82,9 @@ Estos perks pueden ser seleccionados por cualquier clase de personaje, ofreciend
     * **Descripción:** El personaje ha aprendido a potenciar sus atributos base con un entrenamiento intensivo.
 
     * **Efecto:** Otorga una bonificación de 10 puntos a los atributos de Ataque y Defensa.
+
+---
+
 ### Sistema de Perks: Progresión y Activación ✨
 
 El sistema de perks se basa en una progresión clara por niveles, donde cada elección de perk se activa permanentemente y se suma a la colección de habilidades del personaje.
@@ -95,3 +98,4 @@ El sistema de perks se basa en una progresión clara por niveles, donde cada ele
 * **Nivel 4:** El jugador elige el segundo perk universal de los 3 restantes. Este perk se activa de forma permanente.
 
 El resultado es que, al llegar al Nivel 4, cada personaje tendrá un total de cuatro perks activos al mismo tiempo: dos perks universales y dos perks de clase. Esto asegura que la progresión del personaje se sienta significativa y que cada nivel aporte una mejora tangible y duradera al estilo de juego.
+
