@@ -11,7 +11,7 @@
 
 Catalina Toledo
 
-Pedro Flores 
+Pedro Flores **[CONTINUA]**
 
 Jose Aylwin  **[SCRUM MASTER]**
 
