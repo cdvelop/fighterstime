@@ -15,22 +15,18 @@ Pedro Flores
 
 Jose Aylwin  **[SCRUM MASTER]**
 
-Francisco Villa
+Francisco Villa **[CONTINUA]**
 
-Diego Gonzalez 
+Diego Gonzalez **[CONTINUA]**
 
 
 📜 Grupo B:
 
-Benjamin Uribe 
+Benjamin Uribe **[CONTINUA]**
 
-Jose Chavez 
+Jose Chavez **[CONTINUA]**
 
-Juan Beleño **[SCRUM MASTER]**
-
-Daniel Romero 
-
-Luis Zañartu
+Daniel Romero **[CONTINUA]**
 
 
 ---
