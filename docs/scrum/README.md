@@ -7,26 +7,23 @@
 
 ## teams de desarrollo:
 
-📜 Grupo A:
+
 
 Catalina Toledo
 
-Pedro Flores **[CONTINUA]**
+Pedro Flores
 
-Jose Aylwin  **[SCRUM MASTER]**
+Jose Aylwin  
 
-Francisco Villa **[CONTINUA]**
+Francisco Villa
 
-Diego Gonzalez **[CONTINUA]**
+Diego Gonzalez
 
+Benjamin Uribe
 
-📜 Grupo B:
+Jose Chavez  **[SCRUM MASTER]**
 
-Benjamin Uribe **[CONTINUA]**
-
-Jose Chavez **[CONTINUA]**
-
-Daniel Romero **[CONTINUA]**
+Daniel Romero
 
 
 ---
