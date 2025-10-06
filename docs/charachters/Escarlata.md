@@ -1,4 +1,4 @@
-## Escalata 
-![OsoZombie](imagen/Escarlata.png)
+## Escarlata
+![Escarlata](imagen/Escarlata.png)
 
-![OsoZombie](imagen/Escarlata2.png)
+![Escarlata](imagen/Escarlata2.png)
