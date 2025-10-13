@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "62089654249",
+    "project_id": "fighterstime-f9280",
+    "storage_bucket": "fighterstime-f9280.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:62089654249:android:d873d3848eec63a3d5a578",
+        "android_client_info": {
+          "package_name": "com.fighterstime.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCW2MkagXh88av0DIsUqb5x64kPtANt7Yg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
